@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kiran"
+  },
+  "text": {
+    "more": "<html><head><link rel='stylesheet' href='css/style.css' type='text/css'/></head><body><h3>Retweet network for the hashtag #baltimore</h3><p>This panel shows additional information about the hashtag, such as post popular URL (in terms of number of retweets) on each side, post popular tweet, etc.</p><section id='urls'><div id='one'><h5>Side 1 (Top URLs)</h5><li><a href='http://cnn.it/1PW0WfX'>California oil spill: Up to 105 000 gallons...</a></li><li><a href='http://cnn.it/1c6KGvk'>California oil spill: Up to 105 000 gallons...</a></li><li><a href='http://cnn.it/1PwBa7a'>Study: Nearly 20% of college freshmen victi...</a></li></ul></div><div id='two'><h5>Side 2 (Top URLs)</h5><ul><li><a href='http://therightscoop.com/local-reporter-and-councilman-say-baltimore-riots-were-planned-in-advance'>Local reporter and councilman say Baltimore...</a></li><li><a href='http://newsninja2012.com/radiolive'>http://newsninja2012.com/radiolive</a></li><li><a href='http://www.breitbart.com/big-government/2015/04/27/baltimore-police-gangs-working-together-to-take-out-law-enforcement-officers'>Baltimore Police: Gangs Working Together To...</a></li></ul></div></section><section id='urls'><div id='one'><h5>Side 1 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/584717538996551681'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/593824775706775553'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/590934742826094592'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div><div id='two'><h5>Side 2 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/594715762637590528'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/594715705431437312'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/594714438609072128'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div></section></body></html>",
+    "intro": "Visualization of retweet network for the hashtag #baltimoreriots, Apr 28--30, 2015. It involves discussions about race relations, with one side opposing rioting and the other talking about racial injustice as cause for the riots. <br/><b>Note:</b> The visualization might take a few seconds to load, for the first time.",
+    "title": "#baltimoreriots"
+  },
+  "legend": {
+    "edgeLabel": "retweet",
+    "colorLabel": "<text style='color:red'>RED</text>: Support racial justice, <text style='color:blue'>BLUE</text>, Opposing the riots.",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "drawLabels": false
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

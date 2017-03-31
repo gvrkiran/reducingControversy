@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kiran"
+  },
+  "text": {
+    "more": "<html><head><link rel='stylesheet' href='css/style.css' type='text/css'/></head><body><h3>Retweet network for the hashtag #russia_march</h3><p>This panel shows additional information about the hashtag, such as post popular URL (in terms of number of retweets) on each side, post popular tweet, etc.</p><section id='urls'><div id='one'><h5>Side 1 (Top URLs)</h5><li><a href='http://ph.livejournal.com/76046.html'>Марш памяти Немцова: ph</a></li><li><a href='http://www.novayagazeta.ru/photos/67464.html'>Марш памяти Бориса Немц...</a></li><li><a href='http://www.zona.media/news/svidetel-vs-pristav'>http://www.zona.media/news/svidetel-vs-pris...</a></li></ul></div><div id='two'><h5>Side 2 (Top URLs)</h5><ul><li><a href='http://vz.ru/news/2015/3/1/732079.html'> ВЗГЛЯД / На акцию оппоз...</a></li><li><a href='http://www.ridus.ru/news/179711'>«Антикризисный марш» п?...</a></li><li><a href='https://twitter.com/FPaidinfull/status/572017948476481536/photo/1'>Twitter / Tili jäädytetty</a></li></ul></div></section><section id='urls'><div id='one'><h5>Side 1 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/590909748716957696'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/585490351659548673'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/577801489860706304'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div><div id='two'><h5>Side 2 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/576485045973737472'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/572089428925157376'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/576245225640869888'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div></section></body></html>",
+    "intro": "Visualization of retweet network for the hashtag #russia_march (марш in russian), Feb 28--Mar 02, 2015. It involves protests and counter protests by the opposition and supporters of the Russian government, following the death of opposition leader Boris Nemtsov. <br/><b>Note:</b> The visualization might take a few seconds to load, for the first time.",
+    "title": "#марш"
+  },
+  "legend": {
+    "edgeLabel": "retweet",
+    "colorLabel": "<text style='color:red'>RED</text>: Support the Russian government, <text style='color:blue'>BLUE</text>, Opposing the Russian govt.",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "drawLabels": false
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

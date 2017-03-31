@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kiran"
+  },
+  "text": {
+    "more": "<html><head><link rel='stylesheet' href='css/style.css' type='text/css'/></head><body><h3>Retweet network for the hashtag #indiana</h3><p>This panel shows additional information about the hashtag, such as post popular URL (in terms of number of retweets) on each side, post popular tweet, etc.</p><section id='urls'><div id='one'><h5>Side 1 (Top URLs)</h5><li><a href='http://johnpavlovitz.com/2015/03/28/a-letter-to-christians-in-indiana-from-jesus'>A Letter To Christians In Indiana  From Jes...</a></li><li><a href='http://www.huffingtonpost.com/2015/03/28/charles-barkley-ncaa-tournament-indiana-religious-freedom-law_n_6961796.html'>http://www.huffingtonpost.com/2015/03/28/ch...</a></li><li><a href='http://abcnews.go.com/US/indiana-religious-freedom-law-scrutinized-ahead-final/story'>http://abcnews.go.com/US/indiana-religious-...</a></li></ul></div><div id='two'><h5>Side 2 (Top URLs)</h5><ul><li><a href='http://noticias.univision.com/article/2284867/2015-03-26/estados-unidos/noticias/comercios-de-indiana-eeuu-podran'>El gobernador de Indiana firm\u00f3 una ley que...</a></li><li><a href='http://freakoutnation.com/2015/03/big-dummy-marco-rubio-backs-indianas-anti-gay-law'>http://freakoutnation.com/2015/03/big-dummy...</a></li><li><a href='http://www.huffingtonpost.com/2015/03/30/rahm-emanuel-indiana-religious-freedom-restoration-act_n_6973806.html'>http://www.huffingtonpost.com/2015/03/30/ra...</a></li></ul></div></section><section id='urls'><div id='one'><h5>Side 1 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/591082232120418304'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/598976742188015618'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/600421554569289728'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div><div id='two'><h5>Side 2 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/591795752709427201'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/583260942013612032'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/588105807469928449'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div></section></body></html>",
+    "intro": "Visualization of retweet network for the hashtag #indiana, Apr 2--5, 2015. It involves discussions about gay rights in Indiana, after a pizzeria refused to cater to a gay wedding. One side opposing the action by the bakery and the other supporting their first ammendment rights. <br/><b>Note:</b> The visualization might take a few seconds to load, for the first time.",
+    "title": "#indiana"
+  },
+  "legend": {
+    "edgeLabel": "retweet",
+    "colorLabel": "<text style='color:red'>RED</text>: Supports gay rights, <text style='color:blue'>BLUE</text>, Supports the pizzeria.",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "drawLabels": false
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

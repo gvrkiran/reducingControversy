@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kiran"
+  },
+  "text": {
+    "more": "<html><head><link rel='stylesheet' href='css/style.css' type='text/css'/></head><body><h3>Retweet network for the hashtag #nemtsov</h3><p>This panel shows additional information about the hashtag, such as post popular URL (in terms of number of retweets) on each side, post popular tweet, etc.</p><section id='urls'><div id='one'><h5>Side 1 (Top URLs)</h5><li><a href='http://www.thicktoast.com/nemtsov-assassination-false-flag-event'>wOOrry</a></li><li><a href='http://journal-neo.org/2015/02/28/russia-us-backed-opposition-leader-gunned-down-in-moscow'>Russia: US-Backed Opposition Leader Gunned ...</a></li><li><a href='http://kingworldnews.com/paul-craig-roberts-cia-may-just-assassinated-boris-nemtsov-moscow-blame-putin'>http://kingworldnews.com/paul-craig-roberts...</a></li></ul></div><div id='two'><h5>Side 2 (Top URLs)</h5><ul><li><a href='http://khpg.org/index.php'>\u041f\u0440\u0430\u0432\u0430 \u041b\u044e\u0434\u0438\u043d\u0438 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456</a></li><li><a href='http://euromaidanpress.com/2015/02/28/boris-nemtsovs-last-facebook-post-crimea-annexed-unlawfully'>http://euromaidanpress.com/2015/02/28/boris...</a></li><li><a href='http://euromaidanpress.com/2015/02/28/who-shot-down-mh17-as-revealed-by-pro-kremlin-sources'>http://euromaidanpress.com/2015/02/28/who-s...</a></li></ul></div></section><section id='urls'><div id='one'><h5>Side 1 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/576245851690905600'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/566260934709366784'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/561707578078420992'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div><div id='two'><h5>Side 2 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/566425691974283264'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/564976417675677696'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/566425932681203712'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div></section></body></html>",
+    "intro": "Visualization of retweet network for the hashtag #nemtsov, Feb 28--Mar 02, 2015. It involves protests and counter protests by the opposition and supporters of the Russian government, following the death of opposition leader Boris Nemtsov. <br/><b>Note:</b> The visualization might take a few seconds to load, for the first time.",
+    "title": "#nemtsov"
+  },
+  "legend": {
+    "edgeLabel": "retweet",
+    "colorLabel": "<text style='color:red'>RED</text>: Support the Russian government, <text style='color:blue'>BLUE</text>, Opposing the Russian govt.",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "drawLabels": false
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kiran"
+  },
+  "text": {
+    "more": "<html>\n\u003cbody\u003e\n\u003ch3\u003euss election night data\u003c/h3\u003e\n\n\u003cul\u003e\n\u003cli\u003eKiran is great1\u003c/li\u003e\n\u003cli\u003eKiran is great2\u003c/li\u003e\n\u003cli\u003eKiran is great3\u003c/li\u003e\n\u003cli\u003eKiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 Kiran is great4 \u003c/li\u003e\n <img src='kiran.png'/> <br> <img src='garimellakiran.jpg'/> \u003c/body\u003e\n\u003c/html\u003e",
+    "intro": "Visualization of retweet network for tweets produced on the US Election result night (Nov 09, 2016). It involves discussions about the election of Donald trump and the future of America. <br/><b>Note:</b> The visualization might take a few seconds to load, for the first time.",
+    "title": "US Elections"
+  },
+  "legend": {
+    "edgeLabel": "retweet",
+    "colorLabel": "<text style='color:red'>RED</text>: Republicans, <text style='color:blue'>BLUE:</text> Democrats.",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "drawLabels": false
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

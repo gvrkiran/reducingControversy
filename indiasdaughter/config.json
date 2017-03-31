@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kiran"
+  },
+  "text": {
+    "more": "<html><head><link rel='stylesheet' href='css/style.css' type='text/css'/></head><body><h3>Retweet network for the hashtag #indiasdaughter</h3><p>This panel shows additional information about the hashtag, such as post popular URL (in terms of number of retweets) on each side, post popular tweet, etc.</p><section id='urls'><div id='one'><h5>Side 1 (Top URLs)</h5><li><a href='http://www.daijiworld.com/news/news_disp.asp?n_id=57924'>Mangalore Weeds within - Seven Arrested for...</a></li><li><a href='http://timesofindia.indiatimes.com/city/bareilly/Burglars-steal-6-idols-donation-box-from-Puranpur-temple/articleshow/46575904.cms'>Burglars steal 6 idols  donation box from P...</a></li><li><a href='http://timesofindia.indiatimes.com/city/bengaluru/Bengaluru-girl-refuses-to-pay-Rs-30-extra-auto-driver-hits-her-thrice/articleshow/46868671.cms'>Bengaluru girl refuses to pay Rs 30 extra  ...</a></li></ul></div><div id='two'><h5>Side 2 (Top URLs)</h5><ul><li><a href='http://www.firstpost.com/india/upset-govt-asks-youtube-take-bbc-documentary-2138303.html'>Upset govt asks YouTube to take down BBC do...</a></li><li><a href='http://www.firstpost.com/blogs/10-things-govt-ban-instead-indiasdaughter-2138307.html'>10 things the Government should ban instead...</a></li><li><a href='http://www.trendinalia.com/twitter-trending-topics/india/india-today.html'>Trending Topics del mi\u00c3\u00a9rcoles 04 de ener...</a></li></ul></div></section><section id='urls'><div id='one'><h5>Side 1 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/575876429277175809'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/587655418282807296'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/590534455791587328'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div><div id='two'><h5>Side 2 (Top tweets)</h5><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/574300858512445442'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/592945873811800065'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p><p><blockquote class='twitter-tweet'><a href='http://twitter.com/asds/status/584367672592244736'></a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script></p></div></section></body></html>",
+    "intro": "Visualization of retweet network for the hashtag #indiasdaughter, Mar 01--05, 2015. It involves discussions about a documentary regarding a rape incident in India and the subsequent banning of the documentary by the Indian givernment.<br/><b>Note:</b> The visualization might take a few seconds to load, for the first time.",
+    "title": "#indiasdaughter"
+  },
+  "legend": {
+    "edgeLabel": "retweet",
+    "colorLabel": "<text style='color:red'>RED</text>: Supports the ban, <text style='color:blue'>BLUE</text>, Opposing the ban.",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#fff",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#000",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "drawLabels": false
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
