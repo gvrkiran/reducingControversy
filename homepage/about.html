@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Demo - Recommending opposing views</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Exposing Twitter users to Contrarian News</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <!--a href="index.html">Home</a-->
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li-->
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+  <h3>
+<a id="connecting-people-with-opposing-views" class="anchor" href="#connecting-people-with-opposing-views" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About the project.</h3>
+
+<p>
+	The goal of the project is to understand how people consume news on social media, to quantify individual users filter bubbles - and
+	to help them find content that helps them over come their own bubbles. In this work, we try to do that by recommending content to these users that represents multiple points of view (and often contrarian) about the issues they care about.
+<!-- 	This means, for instance, suggesting links about hillary to trump supporters and vice versa. -->
+</p>
+
+<h4>
+<a id="creating-pages-manually" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why it matters</h4>
+			<p>
+			  We believe that public dialogue and plurality of opinions are necessary
+			  for democracies to deal with societal issues -- and the World Wide Web
+			  has the potential to facilitate both.
+			  Nevertheless, much of the content we consume on the Web today is brought to us by algorithms,
+			  which <i>might</i> or <i>might not</i> be tailored to increase our awareness
+			  of the different viewpoints around important issues.
+			  If not, there is a real possibility that each of us consumes content 
+			  that reinforces a specific point of view - perhaps one that we've already
+			  subscribed to.
+			  Such situations could lead to polarization and estrangement between
+			  societal groups that endorse different points of view but have little understanding
+			  about the arguments of each other.
+			  In this project, our goal is to generate content recommendations that alleviate such
+			  situations.
+			</p>
+
+<hr>
+			<h3>
+			<a class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+			About the demo
+			</h3>
+			<p>
+			Here we present an interactive demo that (i) showcases the phenomenon of polarization for discussions on controversial topics, and (ii) provides contrarian content recommendations, i.e., content that expresses views from the opposing side of the controversy. The goal of this demo is to allow users to explore polarized discussions on social media and, at the same time, show a way to address the polarization phenomenon.
+			</p>
+			<p>
+			The experience focuses on controversial topics, and especially on the way information is disseminated in these discussions. As previous studies have confirmed, controversial topics create more polarized discussions, which are characterized by specific types of sharing and information dissemination patterns. We model the discussion as an endorsement graph (e.g., retweets in Twitter). In this graph there is an edge between two users u and v if u retweets v.
+			</p>
+			<p>
+			Our demonstration shows a possible way to address this problem, by exposing people to contrarian content. Differ- ently from previous attempts, our system is fully automated, and employs an algorithm to recommend a set of contrarian news articles that have been shared by the opposing side. By exposing users to content which supports contrarian beliefs, we hope to encourage people to look and understand the point of view of the other side of the controversy.
+			</p>
+			<p>
+			More details about how the functionality of the demo can be found in our WWW demo paper <a href="https://users.ics.aalto.fi/kiran/content/Exposing-Users-to-Contrarian-Viewpoints.pdf">here</a>.
+			</p>
+
+<hr>
+			<h3>
+			<a class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+			How does it work?
+			</h3>
+
+			<p>
+			We build algorithms to <i>automatically</i> curate and
+			recommend content to users who
+			are involved in a polarized discussion on Twitter.
+			Our pipeline is completely algorithmic, and no human judgements are involved in the process.
+			</p>
+
+			<p>
+			Lets consider the polarized topic related to US elections, as an example.
+			We first identify users that were active on the day after the
+			latest presidential election (Nov 9, 2016) and obtain their tweets.
+			We classify these users into Democrat-leaning or
+			Republican-leaning based on their retweet activity,
+			using methods from our <a href="https://arxiv.org/abs/1507.05224">previous research</a>.
+			These methods essentially use the assumption that Democrats
+			and Republicans
+			predominantly retweet other Democrats and Republicans, 
+			respectively.
+			</p>
+
+			<p>
+			Subsequently, we identify content that is predominantly
+			associated with either side - posted by prominent partisan
+			accounts like @hillaryclinton and @berniesanders for Democrats
+			or @realdonaltrump and @foxnews for Republicans;
+			or posted mainly by accounts from one side.
+			</p>
+
+			<p>
+				Finally, we generate article recommendations for each user
+				according to the following criteria:
+				<ul>
+						<li>
+				  		how well the topic of the article (represented
+				  		with a set of
+					  	<a href="https://tagme.d4science.org/tagme/" target=_blank>TagMe</a>
+					  	entities) 
+					  	matches the interests of the user, based on past
+					  	user activity;
+				  	</li>
+					<li>
+						how likely we think the user is to
+						endorse the viewpoint reflected in an
+						article, based on the sides associated
+						with the user and the article.
+					</li>
+				</ul>
+			</p>
+			<p>
+				Eventually, for each user who participates in the discussion on the topic on twitter, 
+				we generate a list of news article recommendations that are both close to
+				their interests, but with a contrarian viewpoint.
+			</p>
+			<p>
+				More details about how the recommendations are generated can be found in our tech report <a href="reducing_polarization.pdf">here</a>.
+			</p>
+
+		<hr>
+			<h3>
+			<a class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+			Credits
+			</h3>
+			<p>
+			The demo is built using the <a href="http://sigmajs.org/">Sigma.js</a>. The graph layout and basic javascript functionality is provided by the Gephi <a href="https://marketplace.gephi.org/plugin/sigmajs-exporter/">sigma.js plugin</a> by the <a href="http://blogs.oii.ox.ac.uk/vis/">Oxford Internet Institute</a>.
+			</p>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

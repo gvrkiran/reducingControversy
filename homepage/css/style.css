@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
+.beefban {
+  background: url(http://193.166.24.158/tmp/homepage/images/beefban.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.baltimore {
+  background: url(http://193.166.24.158/tmp/homepage/images/baltimore.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.indiana {
+  background: url(http://193.166.24.158/tmp/homepage/images/indiana.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.indiasdaughter {
+  background: url(http://193.166.24.158/tmp/homepage/images/indiasdaughter.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.nemtsov {
+  background: url(http://193.166.24.158/tmp/homepage/images/nemtsov.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.netanyahu {
+  background: url(http://193.166.24.158/tmp/homepage/images/netanyahu.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.russia_march {
+  background: url(http://193.166.24.158/tmp/homepage/images/russia_march.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.uselections {
+  background: url(http://193.166.24.158/tmp/homepage/images/uselections.png);
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.top h2 {
+  color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+.lr p {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  margin: 0;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.cap p {
+  padding: 20px;
+  color: white;
+  font: 12px Monaco, Mono-Space;
+  margin: 0;
+}
